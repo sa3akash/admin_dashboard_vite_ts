@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  span {
+    &:first-of-type {
+      font-weight: bold;
+    }
+    &:last-of-type {
+      font-size: 12px;
+    }
+  }
+}
