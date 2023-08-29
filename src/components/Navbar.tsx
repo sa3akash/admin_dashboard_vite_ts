@@ -8,11 +8,11 @@ const Navbar = () => {
         <span>SA2 Admin</span>
       </div>
       <div className="icons">
-        <img src="/images/search.svg" alt="search" />
-        <img src="/images/app.svg" alt="app" />
+        <img src="/images/search.svg" alt="search" className="icon"/>
+        <img src="/images/app.svg" alt="app" className="icon"/>
         <img src="/images/expand.svg" alt="expand" />
         <div className="notification">
-          <img src="/images/notifications.svg" alt="notification" />
+          <img src="/images/notifications.svg" alt="notification" className="icon"/>
           <span>3</span>
         </div>
         <div className="user">

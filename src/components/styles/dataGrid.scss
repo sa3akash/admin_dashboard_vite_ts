@@ -1,4 +1,10 @@
+@import "../../styles//responsive.scss";
+
 .dataTable{
+    @include xl{
+        overflow: hidden;
+        overflow-x: auto;
+    }
     .dataGrid{
         background-color: #fff;
         padding: 20px;

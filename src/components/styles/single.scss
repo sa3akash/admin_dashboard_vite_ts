@@ -1,11 +1,12 @@
+@import "../../styles//responsive.scss";
 
 .single {
   display: flex;
 
-  // @include xl{
-  //   flex-direction: column;
-  //   gap: 50px;
-  // }
+  @include xl{
+    flex-direction: column;
+    gap: 50px;
+  }
 
   .view {
     flex: 1;
@@ -48,9 +49,9 @@
       border: 0.5px solid gray;
       margin: 20px 0px;
 
-      // @include md{
-      //   display: none;
-      // }
+      @include md{
+        display: none;
+      }
     }
 
     .chart {
@@ -58,9 +59,9 @@
       width: 80%;
       height: 400px;
 
-      // @include md{
-      //   display: none;
-      // }
+      @include md{
+        display: none;
+      }
     }
   }
   .activities {
@@ -95,9 +96,9 @@
           padding: 15px;
           background-color: #f45b6810;
 
-          // @include md{
-          //   min-width: 250px;
-          // }
+          @include md{
+            min-width: 250px;
+          }
 
           p{
             margin-bottom: 5px;

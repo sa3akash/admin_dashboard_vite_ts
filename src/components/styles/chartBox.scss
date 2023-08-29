@@ -1,3 +1,5 @@
+@import "../../styles//responsive.scss";
+
 .chartBox{
     display: flex;
     width: 100%;
@@ -12,6 +14,9 @@
             display: flex;
             align-items: center;
             gap: 10px;
+            @include md{
+                font-size: 14;
+            }
         }
     }
     .chartInfo{
